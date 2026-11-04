@@ -1,0 +1,13 @@
+Wed Oct 21 13:21:03 SAST 2026 | S1001 | DEPOSIT | Amount: M500.00 | Balance: M1500.00 | SUCCESS
+Wed Oct 21 13:21:03 SAST 2026 | S1001 | WITHDRAW | Amount: M1000.00 | Balance: M500.00 | SUCCESS
+Wed Oct 21 13:21:03 SAST 2026 | S1001 | WITHDRAW | Amount: M-5.00 | Balance: M500.00 | REJECTED - Withdrawal must be greater than zero
+Wed Oct 21 13:21:03 SAST 2026 | C2002 | WITHDRAW | Amount: M2000.00 | Balance: M-1700.00 | SUCCESS
+Wed Oct 21 13:21:03 SAST 2026 | S1002 | DEPOSIT | Amount: M2000.00 | Balance: M2500.00 | SUCCESS
+Wed Oct 21 13:21:03 SAST 2026 | C2002 | TRANSFER | Amount: M2000.00 | Balance: M-1700.00 | SUCCESS - Sent to S1002
+Wed Oct 21 13:21:03 SAST 2026 | C2002 | WITHDRAW | Amount: M3000.00 | Balance: M-1700.00 | REJECTED - Overdraft limit of M2000.00 exceeded
+Wed Oct 21 13:21:03 SAST 2026 | C2002 | TRANSFER | Amount: M3000.00 | Balance: M-1700.00 | REJECTED - Overdraft limit of M2000.00 exceeded.
+Wed Oct 21 13:21:03 SAST 2026 | S1001 | INTEREST | Amount: M25.00 | Balance: M525.00 | SUCCESS - 5% interest added
+Wed Oct 21 13:21:03 SAST 2026 | C2001 | INTEREST | Amount: M0.00 | Balance: M2500.00 | No interest for current accounts
+Wed Oct 21 13:21:03 SAST 2026 | S1002 | LOAN | Amount: M20000.00 | Balance: M2500.00 | REJECTED - Loan must be positive and not above M5000.00
+Wed Oct 21 13:21:03 SAST 2026 | S1002 | LOAN | Amount: M1000.00 | Balance: M3500.00 | SUCCESS - Loan approved
+Wed Oct 21 13:21:03 SAST 2026 | C2001 | LOAN | Amount: M4000.00 | Balance: M6500.00 | SUCCESS - Loan approved

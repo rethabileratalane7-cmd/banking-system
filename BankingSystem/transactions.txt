@@ -1,0 +1,11 @@
+Sun Oct 25 11:59:31 SAST 2026 | 901020408 | WITHDRAW | Amount: M600.00 | Balance: M400.00 | SUCCESS
+Sun Oct 25 11:59:31 SAST 2026 | 901020409 | DEPOSIT | Amount: M600.00 | Balance: M1100.00 | SUCCESS
+Sun Oct 25 11:59:31 SAST 2026 | 901020408 | TRANSFER | Amount: M600.00 | Balance: M400.00 | SUCCESS - Sent to 901020409
+Sun Oct 25 15:37:30 SAST 2026 | 901020408 | WITHDRAW | Amount: M90.00 | Balance: M1860.00 | SUCCESS
+Sun Oct 25 15:46:36 SAST 2026 | 901020408 | WITHDRAW | Amount: M90.00 | Balance: M1860.00 | SUCCESS
+[2026-10-25 15:46:36] Acc: 901020408 | Type: WITHDRAW | Amt: M90.00 | Bal: M1860.00 | Result: SUCCESS
+2026-10-25 15:59:54 | Account Number: 901020408 | Transaction Type: WITHDRAW | Amount: M90.00 | New Balance: M1860.00 | Status: SUCCESS
+2026-10-25 16:00:46 | Account Number: 901020408 | Transaction Type: DEPOSIT | Amount: M6000.00 | New Balance: M7860.00 | Status: SUCCESS
+2026-10-25 16:06:26 | Account Number: 901020408 | Transaction Type: WITHDRAW | Amount: M90.00 | New Balance: M1860.00 | Status: SUCCESS
+Sun Oct 25 16:22:37 SAST 2026 | 901020408 | LOAN_CREDIT | Amount: M400.00 | Balance: M2350.00 | APPROVED
+2026-10-25 16:22:37 | Account Number: 901020408 | Transaction Type: LOAN | Amount: M400.00 | New Balance: M2350.00 | Status: SUCCESS
